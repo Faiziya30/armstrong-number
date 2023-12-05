@@ -1,0 +1,17 @@
+# PERFECT,DEFICIENT,ABUNDANT
+
+num=int(input("num: "))
+s=0
+li=[]
+for i in range(1,num)
+    if num%i==0:
+        s+=i
+        li+=[i]
+print("factors:",li)
+print("sum:",s)
+if s==num:
+    print("perfect")
+elif s>num:
+    print("abundant")
+else:
+    print("deficient")
